@@ -2,16 +2,12 @@
 import os
 import tkinter as tk
 from tkinter import filedialog
-
-
-# App Coding (Scripts)
 root = tk.Tk()
 apps = []
 
-# Icon
+
+# Get Icon
 root.iconbitmap("favicon.ico")
-
-
 
 
 
