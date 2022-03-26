@@ -24,7 +24,7 @@ def add_App():
             widget.destroy()                
 
         filename = filedialog.askopenfilename(initialdir="/", title="Select File",
-        filetypes=(("Executable","*.exe"), ("all files", "*.*")))
+        filetypes=(("Executable","*.exe"), ("all files", "*.*"), ("Desktop Shortcut","*.ink")))
         apps.append(filename)
         print(filename)
         for app in apps:
